@@ -1,0 +1,14 @@
+body{
+    background-color: #5f9de6;
+    align-items: center;
+}
+
+.login{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    height: 40vh;
+    width: 60vh;
+}
