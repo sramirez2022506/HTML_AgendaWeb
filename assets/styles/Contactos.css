@@ -20,3 +20,10 @@ body{
     border-radius: 30px;
     background: #5d3c42;
 }
+
+.lista_obj{
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
