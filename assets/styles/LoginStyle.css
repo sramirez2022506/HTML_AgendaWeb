@@ -4,36 +4,43 @@ body{
     font-family: 'Nunito', sans-serif;
     font-family: 'Poppins', sans-serif;
     background-color: #5f9de6;
-    height: 90vh;
+    min-height: 100vh;
     display: flex;
-    margin: 0;
-    justify-content: center;
-    align-items: center;
 }
 
-.login{
+.formulario{
     text-align: center;
     background-color: aliceblue;
     margin: auto;
     padding: 4.5em 3em;
     border-radius: 10px;
     width: 90%;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     max-width: 400px;
     /*min-width: 250px;*/
     /*margin-bottom: 0;*/
-    box-shadow: 0 5px 10px -5px rgb(0, 0, 0 / 30%);
 }
 
-.ImgContainer{
-    height: 10vh;
-    width: 10vh;
-}
 
-.contenedor{
+
+.contenedor_formulario{
     margin-top: 3em;
     display: grid;
-    gap: 1px;
+    gap: 1em;
+}
+
+.grupo_form{
+    position: relative;
+    --color: #5757577e;
+}
+
+.contenedorInput{
+    width: 100%;
+    background: none;
+    color: #5f9de6;
+    font-size: 1rem;
+    padding: .6em .3em;
+    border: none;
 }
 
 .Titulo{
