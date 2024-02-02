@@ -8,6 +8,7 @@ body{
 .nav{
     width: 300px;
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
     background: #5d3c42;
 }
