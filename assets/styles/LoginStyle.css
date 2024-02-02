@@ -12,11 +12,11 @@ body{
     text-align: center;
     background-color: aliceblue;
     margin: auto;
+    width: 100%;
+    max-width: 400px;
     padding: 4.5em 3em;
     border-radius: 10px;
-    width: 90%;
     /*flex-wrap: wrap;*/
-    max-width: 400px;
     /*min-width: 250px;*/
     /*margin-bottom: 0;*/
 }
@@ -76,3 +76,8 @@ body{
     margin-bottom: .5em;
 }
 
+@media (max-width: 425px){
+    .Titulo{
+        font-size: 1.8rem;
+    }
+}
