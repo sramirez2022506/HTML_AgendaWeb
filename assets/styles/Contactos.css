@@ -2,42 +2,53 @@
 body{
     font-family: 'Nunito', sans-serif;
     font-family: 'Poppins', sans-serif;
+    display: flex;
 }
 
 .nav{
     width: 300px;
-}
-
-.lista{
-    margin: auto;
-    width: 100%;
-    height: 100vh;
-    max-width: 400px;
     display: flex;
     flex-direction: column;
     background: #5d3c42;
 }
 
+.lista{
+    margin: auto;
+    width: 100%;
+    height: 95vh;
+    max-width: 400px;
+}
+
 .btn{
     width: 100%;
     margin: 0;
+    
 }
 
-.lista_obj{
+/*.lista_obj{
     list-style-type: none;
     width: 100%;
     text-align: center;
-    /*overflow: hidden;*/
+    /*overflow: hidden;
 }
 
 .lista_obj--click{
     cursor: pointer;
 }
-
+*/
 .lista.boton{
     display: flex;
     align-items: center;
     gap: 1em;
     width: 70%;
     margin: 0 auto;
+}
+
+.contenedor_BLogin{
+    justify-content: flex-end;
+}
+
+.section_container{
+    display: flex;
+    background: #5d3c42;
 }
