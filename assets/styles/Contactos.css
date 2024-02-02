@@ -52,3 +52,20 @@ body{
     display: flex;
     background: #5d3c42;
 }
+
+.lista.boton{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.contenedor_BLogin{
+    justify-content: flex-end;
+}
+
+.section_container{
+    display: flex;
+    background: #5d3c42;
+}
