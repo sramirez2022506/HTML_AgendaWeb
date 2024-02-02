@@ -55,6 +55,22 @@ body{
     transition: transform .5s, var(--color) .3s;
 }
 
+.contenedorInput:focus + .formulario_label{
+    color: #5f9de6;
+}
+
+.formulario_submit{
+    background: #7cb8ff;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    padding: .8em;
+    border: none;
+    border-radius: 10px;
+}
+
 .Titulo{
     font-size: 2rem;
     margin-bottom: .5em;
