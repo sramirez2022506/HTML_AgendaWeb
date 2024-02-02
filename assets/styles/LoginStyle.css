@@ -26,7 +26,7 @@ body{
 .contenedor_formulario{
     margin-top: 3em;
     display: grid;
-    gap: 1em;
+    gap: 3em;
 }
 
 .grupo_form{
@@ -37,14 +37,26 @@ body{
 .contenedorInput{
     width: 100%;
     background: none;
-    color: #5f9de6;
+    color: black;
     font-size: 1rem;
     padding: .6em .3em;
     border: none;
+    border-bottom: 1px solid;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.formulario_label{
+    color: black;
+    cursor: pointer;
+    position: absolute;
+    top: -35px;
+    left: 5px;
+    transition: transform .5s, var(--color) .3s;
 }
 
 .Titulo{
-    display: flex;
-    justify-content: center;
+    font-size: 2rem;
+    margin-bottom: .5em;
 }
 
