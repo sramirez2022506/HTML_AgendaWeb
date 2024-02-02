@@ -34,7 +34,7 @@ body{
     --color: #5757577e;
 }
 
-.contenedorInput{
+/*.contenedorInput{
     width: 100%;
     background: none;
     color: black;
@@ -45,6 +45,7 @@ body{
     font-family: 'Nunito', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
+*/
 
 .formulario_label{
     color: black;

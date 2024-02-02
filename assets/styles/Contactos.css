@@ -2,7 +2,6 @@
 body{
     font-family: 'Nunito', sans-serif;
     font-family: 'Poppins', sans-serif;
-    background-color: #2e1e21;
 }
 
 .nav{
@@ -15,15 +14,30 @@ body{
     height: 100vh;
     max-width: 400px;
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    border-radius: 30px;
     background: #5d3c42;
+}
+
+.btn{
+    width: 100%;
+    margin: 0;
 }
 
 .lista_obj{
     list-style-type: none;
     width: 100%;
     text-align: center;
-    overflow: hidden;
+    /*overflow: hidden;*/
+}
+
+.lista_obj--click{
+    cursor: pointer;
+}
+
+.lista.boton{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    width: 70%;
+    margin: 0 auto;
 }
