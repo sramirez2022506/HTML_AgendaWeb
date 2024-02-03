@@ -2,20 +2,13 @@
 body{
     font-family: 'Nunito', sans-serif;
     font-family: 'Poppins', sans-serif;
-    display: grid;
-    min-height: 100vh;
-}
-
-main{
     display: flex;
 }
 
 .nav{
-    /*margin: auto;*/
-    width: 100%;
-    max-width: 300px;
-    display: grid;
-    grid-template-columns: auto auto auto;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
     flex-direction: column;
     background: #5d3c42;
 }
@@ -30,8 +23,15 @@ main{
 .btn{
     width: 100%;
     margin: 0;
-    
 }
+
+.list-group{
+    margin-top: 30vh;
+    width: 50vh;
+    text-decoration: none;
+}
+
+
 
 /*.lista_obj{
     list-style-type: none;
@@ -44,44 +44,7 @@ main{
     cursor: pointer;
 }
 */
-.lista.boton{
-    display: flex;
-    align-items: center;
-    gap: 1em;
-    width: 70%;
-    margin: 0 auto;
-}
 
-.contenedor_BLogin{
-    justify-content: flex-end;
-}
 
-.lista.boton{
-    display: flex;
-    align-items: center;
-    gap: 1em;
-    width: 70%;
-    margin: 0 auto;
-}
 
-.contenedor_BLogin{
-    justify-content: flex-end;
-}
 
-.btn-warning{
-    width: 100%;
-    margin: auto;
-}
-
-.section_container{
-    background: #5d3c42;
-    text-align: center;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-content: center;
-    height: 65vh;
-    margin-top: 5vh;
-    margin-left: 10vh;
-    width: 90vh;
-    padding: 60px;
-}
