@@ -7,6 +7,14 @@ body{
 
 .ImgPerfil{
     border-radius: 100%;
+    size: 10vh;
+    height: 10vh;
+}
+
+.ImgPerfil2{
+    border-radius: 100%;
+    size: 10vh;
+    height: 10vh;
 }
 
 .Formulario{
