@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;1,500;1,700&family=Poppins:wght@300;400;600;700&display=swap');
+
+body{
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    /*background-color: #5f9de6;*/
+    min-height: 100vh;
+    display: flex;
+}
+
+.formulario{
+    text-align: center;
+    background-color: aliceblue;
+    margin: auto;
+    width: 100%;
+    max-width: 400px;
+    padding: 4.5em 3em;
+    border-radius: 10px;
+    /*flex-wrap: wrap;*/
+    /*min-width: 250px;*/
+    /*margin-bottom: 0;*/
+}
+
+
+
+.contenedor_formulario{
+    margin-top: 3em;
+    display: grid;
+    gap: 3em;
+}
+
+.grupo_form{
+    position: relative;
+    --color: #5757577e;
+}
+
+.contenedorInput{
+    width: 100%;
+    background: none;
+    color: black;
+    font-size: 1rem;
+    padding: .6em .3em;
+    border: none;
+    border-bottom: 1px solid;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.formulario_label{
+    color: black;
+    cursor: pointer;
+    position: absolute;
+    top: -35px;
+    left: 5px;
+    transition: transform .5s, var(--color) .3s;
+}
+
+.contenedorInput:focus + .formulario_label{
+    color: #5f9de6;
+}
+
+.formulario_submit{
+    background: #7cb8ff;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    padding: .8em;
+    border: none;
+    border-radius: 10px;
+}
+
+.Titulo{
+    font-size: 2rem;
+    margin-bottom: .5em;
+}
+
+@media (max-width: 425px){
+    .Titulo{
+        font-size: 1.8rem;
+    }
+}
